@@ -1,0 +1,24 @@
+<div class="m-login">
+  	<header>
+      	<i class="yo-ico" action-type="goto.back">&#xe679;</i>
+		<div class="l-head">
+		  <ul id="login-nav">
+		  	<li class="active" action-type="tap.login.slide">登录</li>
+		  	<li action-type="tap.login.slide">注册</li>
+		  </ul>
+		</div>
+  	</header>
+  	<div class="swiper-container" id="login-swiper">
+    	<div class="swiper-wrapper">
+    		<div class="swiper-slide">
+        		<div class="logincon">
+        			<input type="text" placeholder="请输入手机号"/>
+        			<input type="text" placeholder="请输入密码"/> 
+        		</div>
+      		</div>
+      		<div class="swiper-slide">
+        		注册
+      		</div>
+    	</div>    		
+    </div> 
+</div>

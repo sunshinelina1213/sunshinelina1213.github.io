@@ -1,0 +1,128 @@
+<div class="m-home">
+	<header>
+		<ul>
+			<li class="yo-ico">&#xe607;</li>
+			<li><input type="text" name="" id="" placeholder="搜索喜欢的商品" /></li>
+			<li class="yo-ico">&#xe645;</li>
+		</ul>
+	</header>
+	<nav class="m-homenav" >
+		<ul>
+			<li class="active">首页</li>					
+			<li>素食干货</li>
+			<li>进口食品</li>
+			<li>茶饮酒水</li>
+			<li>滋补保健</li>
+		</ul>
+	</nav>
+	
+	<section spa-widget="scroll">
+		<div>
+			<div class="banner">
+				<div class="swiper-container" id="index-swiper">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide"><img src="/douhuawang/img/banner1.jpg"></div>
+				       	<div class="swiper-slide"><img src="/douhuawang/img/banner2.jpg"></div>
+						<div class="swiper-slide"><img src="/douhuawang/img/banner3.jpg"></div>
+				       	<div class="swiper-slide"><img src="/douhuawang/img/banner4.jpg"></div>
+				       	<div class="swiper-slide"><img src="/douhuawang/img/banner5.jpg"></div>
+				    </div>
+				    <div class="swiper-pagination"></div>    
+				</div>
+			</div>
+			<div class="title">
+				<h2>今日热卖</h2>
+				<div class="more"><span>更多&gt;</span></div>
+			</div>
+			<div class="product">
+				<ul>
+	              <li action-type="goto.detail">
+	                <img src="/douhuawang/img/img1.jpg">
+	                <b>不倒翁海鲜拉面X2</b>
+	                <span>￥17</span><i>￥20</i>
+	              </li> 
+	              <li></li>
+	              <li>
+	                <img src="/douhuawang/img/img2.jpg">
+	                <b>不倒翁海鲜拉面X2</b>
+	                <span>￥11</span><i>￥20</i>
+	              </li>
+	            </ul>
+	            <ul>
+	              <li>
+	                <img src="/douhuawang/img/img1.jpg">
+	                <b>不倒翁海鲜拉面X2</b>
+	                <span>￥17</span><i>￥20</i>
+	              </li> 
+	              <li></li>
+	              <li>
+	                <img src="/douhuawang/img/img2.jpg">
+	                <b>不倒翁海鲜拉面X2</b>
+	                <span>￥11</span><i>￥20</i>
+	              </li>
+	            </ul>
+			</div>
+			<div class="title">
+				<h2>豆花推荐</h2>
+			</div>
+			<div class="pro-introduce">
+				 <ul>
+	              <li>
+	                <img src="/douhuawang/img/img3.jpg">
+	                <b>黄油蜂蜜腰果</b>
+	                <span>￥34</span>
+	              </li> 
+	              <li>
+	                <img src="/douhuawang/img/img4.jpg">
+	                <b>大洋蜂蜜柚子茶</b>
+	                <span>￥20</span>
+	              </li>
+	              <li>
+	                <img src="/douhuawang/img/img5.jpg">
+	                <b>东西杏仁麦片</b>
+	                <span>￥33.5</span>
+	              </li>
+	            </ul>
+			</div>
+			<div class="title">
+				<h2>今日特卖</h2>
+			</div>
+			<div class="pro-special">
+				<ul>
+					<li>
+						<div class="imgcon"><img src="/douhuawang/img/img6.jpg"><div class="timeset"><span class="day"></span></div></div>
+						<b>LOTTE乐天糖果</b>
+						<i>休闲美味</i>
+					</li>
+						
+				</ul>
+				<ul>
+					<li>
+						<div class="imgcon"><img src="/douhuawang/img/img7.jpg"><div class="timeset"><span class="day"></span></div></div>
+						<b>LOTTE乐天糖果</b>
+						<i>休闲美味</i>
+					</li>
+						
+				</ul>
+				<ul>
+					<li>
+						<div class="imgcon"><img src="/douhuawang/img/img6.jpg"><div class="timeset"><span class="day"></span></div></div>
+						<b>LOTTE乐天糖果</b>
+						<i>休闲美味</i>
+					</li>
+						
+				</ul>
+				<ul>
+					<li>
+						<div class="imgcon"><img src="/douhuawang/img/img7.jpg"><div class="timeset"><span class="day"></span></div></div>
+						<b>LOTTE乐天糖果</b>
+						<i>休闲美味</i>
+					</li>
+						
+				</ul>
+				
+			</div>
+<!--<div class="ht5"></div>-->
+		</div>
+	</section>
+</div>

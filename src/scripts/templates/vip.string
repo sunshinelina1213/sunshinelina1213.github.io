@@ -1,0 +1,33 @@
+<div class="m-vip">
+	<header>
+		<ul>
+			<li>会员专区</li>
+			<li class="yo-ico">&#xe645;</li>
+		</ul>
+	</header>
+	
+	<section spa-widget="scroll">
+		<div class="proList">
+			<ul>
+				<li><img src="/douhuawang/img/img8.jpg"><b>福谷堂 燕窝 正品 孕妇营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+				<li><img src="/douhuawang/img/img9.jpg"><b>福谷堂 燕窝 正品 孕妇中老年营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+			</ul>	
+			<ul>
+				<li><img src="/douhuawang/img/img8.jpg"><b>福谷堂 燕窝 正品 孕妇营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+				<li><img src="/douhuawang/img/img9.jpg"><b>福谷堂 燕窝 正品 孕妇中老年营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+			</ul>	
+			<ul>
+				<li><img src="/douhuawang/img/img8.jpg"><b>福谷堂 燕窝 正品 孕妇营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+				<li><img src="/douhuawang/img/img9.jpg"><b>福谷堂 燕窝 正品 孕妇中老年营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+			</ul>	
+			<ul>
+				<li><img src="/douhuawang/img/img8.jpg"><b>福谷堂 燕窝 正品 孕妇营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+				<li><img src="/douhuawang/img/img9.jpg"><b>福谷堂 燕窝 正品 孕妇中老年营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+			</ul>	
+			<ul>
+				<li><img src="/douhuawang/img/img8.jpg"><b>福谷堂 燕窝 正品 孕妇营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+				<li><img src="/douhuawang/img/img9.jpg"><b>福谷堂 燕窝 正品 孕妇中老年营养滋补...</b><span>￥239</span><i>￥478</i><em>买</em></li>
+			</ul>	
+		</div>
+	</section>
+</div>

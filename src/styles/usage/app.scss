@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@import "../lib/core/reset";
+@import "./core/common";
+@import "./core/swiper-3.3.1.min.css";
+
+// layout
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+
+// Views
+@import "./module/home";
+@import "./module/my";
+@import "./module/group";
+@import "./module/vip";
+//@import "./module/detail";
+@import "./module/index";
+@import "./module/message";
+@import "./module/login";
+@import "./module/guide";
