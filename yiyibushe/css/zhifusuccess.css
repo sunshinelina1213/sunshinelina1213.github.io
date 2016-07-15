@@ -1,0 +1,46 @@
+.zfsu{
+	width: 980px;
+	height: 300px;
+	margin: 30px auto 30px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.zfsu .zfsucon{
+	margin: 30px 0 0 300px;
+}
+.zfsucon .duihao{
+	display: inline-block;
+}
+.zfsucon span{
+	display: inline-block;
+	height: 30px;
+	font-size: 28px;
+	line-height: 30px;
+	margin-left: 30px;
+	color: #f69;
+	margin-bottom: 20px;
+}
+.zfsucon i{
+	display: block;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+}
+.zfsucon .zfgif{
+	position: absolute;
+	left: 660px;
+	top: 20px;
+}
+.zfsucon p{
+	font-size: 16px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.zfsucon p a{
+	color: #f69;
+	font-size: 20px;
+}
+
+

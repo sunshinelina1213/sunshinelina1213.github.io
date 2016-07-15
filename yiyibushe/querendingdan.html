@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/querendingdan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mydingdan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dingdansuccess.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	</head>
+		<script type="text/javascript" src="js/querendingdan.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/mydingdan.js"></script>
+	<body>
+		<!--************************slide************************************-->	
+		<ul class="slide">
+			<li class="sdfirstli"><a href="#"><span class="slide_go"></span><em>购物车</em></a></li>
+			<li><a href="#"><span class="slide_message"></span><em>客服消息</em></a></li>
+		</ul>
+		<!--************************toding************************************-->
+		<div class="toding" id="totop">
+			
+		</div>
+		
+		<!--************************top************************************-->
+		<div class="top">
+			<div class="topcon">
+		    	<ul class="topnav">
+		    		<li class="userlie"><a href="#" target="_blank"><em class="username">sunshine</em><i class="xiasanjiao"></i></a>
+		    		<div class="userinfo">
+		    			<a>我的杂志</a>
+		    			<a>我的分享</a>
+		    			<a>账号与安全</a>
+		    			<a>退出</a>
+		    		</div></li>
+		            <li><a href="shopcar.html" target="_blank"><span class="gouwuche"></span><em>我的购物车</em></a><b>4</b></li>
+		            <li><a href="mydingdan.html"><span class="dingdan"></span><em>我的订单</em></a></li>
+		            <li><a href="#" target="_blank"><span class="vip"></span><em>衣衣不舍会员</em></a></li>
+		            <li><a href="#" target="_blank"><span class="app"></span><i><em>下载APP</em></i></a></li>
+		            <li class="nobg"><a href="#" target="_blank"><em>帮助中心</em></a></li>
+		        </ul>
+		    </div>
+		</div>
+		<!--************************订单头部************************************-->
+		<div class="gocar">
+			<div class="gocar_head">
+				<div class="gchead_left">
+					<a href="index.html"><img src="images/logo.jpg" /></a>
+				</div>
+				<!--流程-->
+				<div class="gchead_right">
+					<div class="liucheng">
+						<a href="shopcar.html"><span class="go1">1</span></a>
+						<i></i>
+						<i class="liu1"></i>
+						<a href="dingdansuccess.html"><span class="go2">2</span></a>
+						<i class="liu1"></i>
+						<i></i>
+						<a href="zhifu.html"><span class="go3">3</span></a>
+					</div>
+					<div class="liucon">
+						<em>我的购物车</em>
+						<em class="liuem2">填写核对订单信息</em>
+						<em>付款，完成购买</em>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--============================选择收货地址====================================-->
+		<div class="shadress">
+			<div class="shadresscon">
+				<h2>选择收货地址</h2>
+				<!--收货地址-->
+				<table class="address">
+					<tr>
+						<td>收货人</td>
+						<td>收货地址</td>
+						<td>手机号</td>
+						<td>操作</td>
+					</tr>
+					<tr>
+						<td>sunshine</td>
+						<td>河南省平顶山市河南城建学院</td>
+						<td>12345678900</td>
+						<td><a class="shanchu" href="#">删除</a></td>
+					</tr>
+				</table>
+				<!--添加新地址-->
+				<div class="tianaddress">
+					<img src="images/tianjia.jpg" />
+					<p>添加新地址</p>
+				</div>
+				<!--模态窗口-->
+				<div class="addbox">
+					<div class="boxcon">
+						<h3>新增收货地址<span class="addclose">X</span></h3>
+						<table class="address_table">
+							<tr class="address_name">
+								<td>收货人姓名</td>
+								<td><input type="text" class="addtxt" /></td>
+								<td><span></span></td>
+							</tr>
+							<tr class="address_address">
+								<td>所在地区</td>
+								<td>
+									<select>
+										<option>请选择</option>
+										<option>河南省</option>
+									</select>
+									<select>
+										<option>请选择</option>
+										<option>平顶山市</option>
+									</select>
+									<select>
+										<option>请选择</option>
+										<option>新城区</option>
+										<option>湛河区</option>
+										<option>卫东区</option>
+										<option>高新区</option>
+										<option>石龙区</option>
+									</select></td>
+								<td><span></span></td>
+							</tr>
+							<tr class="address_xiangxi">
+								<td>详细地址</td>
+								<td class="xiang_address"><textarea cols="50" rows="5"></textarea></td>
+								<td><span></span></td>
+							</tr>
+							<tr class="address_phone">
+								<td>联系电话</td>
+								<td><input type="text"  class="addtxt"/></td>
+								<td><span></span></td>
+							</tr>
+						</table>
+						<input class="address_btn" type="button" value="保存" />
+						<input class="address_btn2" type="button" value="取消" />
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--===============================底部==========================-->
+		<div class="address_jiesuan">
+			<a href="shopcar.html" target="_blank">&lt;返回购物车</a>
+			<span>应付款</span><i>￥75.00</i><strong class="tjdd">提交订单</strong>
+		</div>
+		<!--************************footer************************************-->
+		<div class="footer">
+			<div class="footercon">
+		    	<div class="footer1">
+		        	<span class="dianhua"></span>
+		        	<p class="tel">1234-567-890</p>
+		            <p>衣衣不舍客服热线</p>
+		            <p>周一至周日：09:00-22:00</p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>买家帮助</h2>
+		        	<p><a href="#">新手指南</a></p>
+		            <p><a href="#">服务保障</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>商家帮助</h2>
+		        	<p><a href="#">商家入驻</a></p>
+		            <p><a href="#">商家推广</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关于我们</h2>
+		        	<p><a href="#">关于衣衣不舍</a></p>
+		            <p><a href="#">联系我们</a></p>
+		            <p><a href="#">加入我们</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关注我们</h2>
+		        	<p><a href="#"><span class="xinlang"></span><em>新浪微博</em></a></p>
+		            <p><a href="#"><span class="kongjian"></span><em>QQ空间</em></a></p>
+		            <p><a href="#"><span class="tengxun"></span><em>腾讯微博</em></a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>衣衣不舍微信服务号</h2>
+		            <p><img src="images/erweima.jpg"/></p>
+		        </div>
+		        <div class="footer3">
+		        	<h2>衣衣不舍客户端下载</h2>
+		            <p><img src="images/app.jpg"/></p>
+		        </div>
+		    </div>
+		    
+		    <div class="footercon2">
+		    	<p class="p1">Copyright&copy 2016 yiyibushe.com 电信与信息服务业务经营许可证1234567号 经营性网站备案信息 京ICP备1234567号 京公安网备1234567890</p>
+		        <p class="p1">客服电话：0123-456-789 文明办公网文明举报电话：9876-543-210 违法不良信息举报中心</p>
+		    </div>  
+		</div>
+	</body>
+</html>

@@ -1,0 +1,208 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0;}
+a{text-decoration:none; cursor:pointer; font-size:12px;}
+img{border:0; display:block;}
+ul,li,dl,ol{list-style:none;}
+body{font-family:"微软雅黑"; font-size:12px; position: relative;}
+em,i{font-style:normal;}
+strong{font-weight:100;}
+
+
+/*头部*/
+.qqhead{
+	width: 100%;
+	height: auto;
+	background: #51b7ec;
+	overflow: hidden;
+}
+.qqheadcon{
+	width: 690px;
+	height: 48px;
+	margin: 0 auto;
+}
+.qqhead_left{
+	width: 120px;
+	float: left;
+	margin-right: 304px;
+}
+.qqhead_left img{
+	float: left;
+	margin-right: 8px;
+	margin-top: 2px;
+}
+.qqhead_left span{
+	color: #fff;
+	font-size: 18px;
+	line-height: 48px;
+}
+.qqhead_right{
+	float: left;
+}
+.qqhead_right li{
+	float: left;
+	
+}
+.qqhead_right li a{
+	font-size: 12px;
+	padding: 0 5px;
+	display: block;
+	height: ;
+	border-right: 1px solid #b7e1ea;
+	margin-top: 12px;
+}
+.qqhead_right .noborder a{
+	border-right: 0;
+}
+/*============主体部分==============*/
+.qqmain{
+	width: 100%;
+	height: auto;
+}
+.qqmaincon{
+	width: 690px;
+	height: 322px;
+	margin: 5px auto 0;
+}
+/*主体部分左部分*/
+.qqmain_left{
+	width: 403px;
+	height: 322px;
+	border-right: 1px dashed #ccc;
+	float: left;
+}
+.left_top{
+	height: 322px;
+}
+.left_top .tab_deng{
+	width:371px ;
+	height: 53px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.tab_deng li{
+	float: left;
+	font-size: 16px;
+	line-height: 50px;
+	padding:0 40px;
+	cursor: pointer;
+}
+
+.qq_wrap{
+	height: 268px;
+}
+	/*快速登录部分*/
+.kuaisu p{
+	font-size: 12px;
+	line-height: 60px;
+	margin-left: 50px;
+}
+
+.img1{
+	float: left;
+	margin-left: 100px;
+	margin-right: 12px;
+}
+.img2,.img1{
+	cursor: pointer;
+}
+.img1 span,.img2 i{
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+.kuaisu p a{
+	padding:0 10px;
+	color: #666;
+}
+.kuaisu p a:hover{
+	color: #f69;
+	text-decoration: underline;
+}
+	/*==账号密码登录部分*/
+.zhanghao{
+	display: none;
+}
+.zhanghao .txttxt,.zhanghao .psdpsd{
+	width: 268px;
+	height: 38px;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius:5%;
+	margin-left: 48px;
+}
+.txttxt{
+	color: #ddd;
+	margin-top: 20px;
+}
+.psdpsd{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}	
+.txtt:hover,.psdpsd:hover{
+	border: 1px solid #51B7EC;
+}			
+.zhanghao .btnbtn{
+	width: 112px;
+	height: 34px;
+	color: #fff;
+	border: none;
+	background: #84cc2e;
+	border-radius:100px/90px;
+	margin-left: 48px;
+}		
+
+.zhanghao p{
+	margin-left: 200px;
+	line-height: 50px;
+}
+.zhanghao p a{
+	padding:0 10px;
+	color: #666;
+}
+.zhanghao p a:hover{
+	color: #f69;
+	text-decoration: underline;
+}	
+	
+
+/*主体右部分=============*/
+.qqmain_right{
+	float: left;
+	margin-left: 25px;
+}
+.qqmain_right p{
+	width: 230px
+}
+.qqp1{
+	height: 53px;
+	line-height: 52px;
+	border-bottom: 1px dashed #ccc;
+}
+.qqp2{
+	height: 40px;
+	border-bottom: 1px dashed #ccc;
+	line-height: 40px;
+}
+.qqp2 span{
+	color: #51b7ec;
+	margin-right: 6px;
+}
+.qqp3,.qqp4,.qqp5,.qqp6{
+	height: 30px;
+	line-height: 30px;
+}
+.qqp3 input,.qqp4 input,.qqp5 input,.qqp6 input{
+	margin-right: 8px;
+}
+.qqp7{
+	margin-top: 30px;
+}
+.qqp7 a{
+	color: #51b7ec;
+	text-decoration: underline;
+}
+
+
+
+
+
+

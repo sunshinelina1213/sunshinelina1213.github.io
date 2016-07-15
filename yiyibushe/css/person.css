@@ -1,0 +1,108 @@
+.person_right{
+	width: 1012px;
+	height: auto;
+	float: left;
+	margin-left: 14px;
+	margin-top: 15px;
+}
+
+.person_right h3{
+	font-size: 14px;
+	line-height: 46px;
+}
+.tequan{
+	width: 1010px;
+	height: 98px;
+	border: 1px solid #ccc;
+}
+.tequan li{
+	float: left;
+	width: 108px;
+	text-align: center;
+	
+}
+.tequan li span{
+	 display: block;
+	font-size: 14px;
+	color: #666;
+	margin-top: 34px;
+	margin-bottom: 18px;
+}
+.tequan li i{
+	color: #666;
+	font-size: 12px;
+}
+.tequan li img{
+	display: block;
+	margin: 0 auto;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+.tequan li:hover img{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+.tequan li i:hover,.tequan li span:hover{
+	color: #f69;
+}
+/*猜你喜欢*/
+.like{
+	width: 690px;
+	height: 760px;
+	border: 1px solid #ccc;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+.like h4{
+	font-size: 14px;
+	line-height: 34px;
+	color: #666;
+}
+.like h4 b{
+	font-size: 10px;
+	color: #999;
+	font-weight: 100;
+}
+.like h5{
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+	margin-top: 12px;
+}
+.xiangsi li{
+	float: left;
+	margin:0 6px;
+	width: 147px;
+	margin-bottom: 20px;
+}
+.xiangsi li span{
+	display: block;
+	font-size: 12px;
+	color: #f69;
+	line-height: 28px;
+}
+.xiangsi li i{
+	color: #666;
+	font-size: 12px;
+}
+.xiangsi li i:hover{
+	color: #f69;
+}
+.xiangsi li img{
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+}
+.xiangsi li img:hover{
+	-webkit-transform: translate(10px,4px);
+	-moz-transform: translate(10px,4px);
+}
+
+
+
+
+
+
+
+
+
+

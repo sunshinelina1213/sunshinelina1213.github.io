@@ -1,0 +1,173 @@
+.zhifuhead{
+	width: 100%;
+	height: auto;
+	
+}
+.zhifuheadcon{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.zhifuheadcon .zflogo{
+	float: left;
+	margin-top: 20px;
+}
+.zhifuheadcon span{
+	float: left;
+	display: inline-block;
+	font-size: 16px;
+	line-height:92px;
+	margin-left: 6px;
+	color: #333;
+}
+.zfewm{
+	position: absolute;
+	left: 827px;
+	top: 22px;
+	z-index:10;
+	cursor: pointer;
+}
+.zfhidden{
+	width: 190px;
+	height: 125px;
+	border: 1px solid #ccc;
+	position: absolute;
+	right:-171px;
+	top: 28px ;
+	display: none;
+	background: #fff;
+	opacity: 0.5;
+}
+.zfhidden img{
+	margin-top: 14px;
+	margin-left: 80px;
+}
+.zfhidden p{
+	line-height: 24px;
+	text-align: center;
+}
+.zfhidden .zfred{
+	color: #f69;
+}
+/*------------支付nav------------*/
+.zf_info{
+	width: 980px;
+	height: 76px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	background: #fafafa;
+}
+.zfinfo_left{
+	width: 652px;
+	float: left;
+	margin-left: 10px;
+}
+
+.zfinfo_left p{
+	line-height: 28px;
+	font-size: 14px;
+}
+.zfinfo_right p{
+	line-height: 76px;
+}
+.zfinfo_right p span{
+	font-size: 16px;
+	color: #f69;
+	margin-left: 20px;
+}
+/*=====银行支付===*/
+.zf_con{
+	width: 982px;
+	height: auto;
+	margin: 30px auto 30px;
+	overflow: hidden;
+}
+.zf_bank{
+	width: 980px;
+	height: 50px;
+	margin:0 auto;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.zf_bank .bank1{
+	width: 980px;
+	font-size: 16px;
+	line-height: 50px;
+}
+.bank1 span{
+	width: 34px;
+	height: 20px;
+	display: inline-block;
+	background: #ffbe58;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bank1 i{
+	width: 125px;
+	height: 20px;
+	display: inline-block;
+	background: #ffecef;
+	color: #f69;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	
+}
+.bank2{
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	margin-left: 40px;
+}
+.bank2 .bank_txt{
+	width: 192px;
+	height: 30px;
+	border: none;
+	border:1px solid #ccc;
+}
+.bank2 .zf_btn{
+	width: 60px;
+	height: 30px;
+	border: none;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background: #f69;
+	margin-left: 10px;
+}
+/*========平台支付=====*/
+.zf_pingtai{
+	width: 980px;
+	height: 50px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.pingtai1{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.pingtai2 img{
+	float: left;
+	margin: 0 20px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.zf_anniu{
+	width: 80px;
+	height: 40px;
+	background: #f69;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-top: 20px;
+}
+.zf_anniu a{
+	color: #fff;
+}

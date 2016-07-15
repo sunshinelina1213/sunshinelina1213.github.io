@@ -1,0 +1,55 @@
+.box{
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	position: absolute;
+}
+.box1{
+	width: 290px;
+	height: 422px;
+	position: relative;
+	left:40%;
+	top: 10%;
+	filter: alpha(opacity=1);
+	opacity: 1;
+}
+.box1 h2{
+	width: 290px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 62px;
+	text-align: center;
+	}
+.box1 .wxbottom{
+	width: 280px;
+	height: 54px;
+	background: #232323;
+	border-radius: 100px/70px;
+	
+}
+
+.wxbottom p{
+	color: #fff;
+	margin-left: 60px;
+	width: 237px;
+	line-height: 54px;
+}
+.wxgoindex{
+	width: 200px;
+	height: 54px;
+	margin-left: 40px;
+	background: #232323;
+	border-radius: 100px/60px;
+}
+.wxgoindex p a{ 
+	color: #fff;
+	line-height: 54px;
+	margin-left: 50px;
+	text-decoration: none;
+}
+.wxgoindex p a:hover{
+	color: #f69;
+	text-decoration: underline;
+}

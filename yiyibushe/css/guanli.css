@@ -1,0 +1,42 @@
+/*========右边=======*/
+.guanli_right{
+	margin-top: 20px;
+	width: 1012px;
+	margin-left: 14px;
+	float: left;
+	
+}
+.gl_goods{
+	width: 1012px;
+	border: 1px solid #ccc;
+}
+.gl_goods tr{
+	height: 80px;
+}
+.gl_goods tr:nth-of-type(1) td{
+	font-size: 16px;
+	color: #f69;
+}
+.gl_goods tr td:hover{
+	color: #f69;
+	cursor: pointer;
+}
+/*fanye*/
+.page{
+	margin-left: 260px;
+	margin-top: 20px;
+
+}
+.page li{
+	float: left;
+	width: 50px;
+	height: 30px;
+	border: 1px solid #ccc;
+	line-height: 30px;
+	text-align: center;
+	margin:0 4px;
+	cursor: pointer;
+}
+.page li:hover{
+	color: #f69;
+}

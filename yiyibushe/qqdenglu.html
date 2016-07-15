@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QQ登录页</title>
+		<link rel="stylesheet" type="text/css" href="css/qqdenglu.css" />
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	</head>
+		<script type="text/javascript" src="js/qqdenglu.js"></script>
+	<body>
+		<!--=======================头部========================-->
+		<div class="qqhead">
+			<div class="qqheadcon">
+				<div class="qqhead_left">
+					<img src="images/qqdl.jpg" />
+					<span>QQ登录</span>
+				</div>
+				<ul class="qqhead_right">
+					<li><a href="#">QQ登录</a></li>
+					<li><a href="#">授权管理</a></li>
+					<li class="noborder"><a href="#">申请接入</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<!--=======================主体========================-->
+		<div class="qqmain">
+			<div class="qqmaincon">
+				<!--===================主体左部分============-->
+				<div class="qqmain_left">
+					<!--tab切换-->
+					<div class="left_top">
+						<ul class="tab_deng">
+							<li class="dengli1">快速登录</li>
+							<li class="dengli2">账号密码登录</li>
+						</ul>
+						<div class="qq_wrap">
+							<div class="kuaisu">
+								<p>请用QQ手机版扫描二维码，或点击头像授权登录</p>
+								<div class="img1">
+									<img class="imgimg1" src="images/qqerweima.jpg" />
+									<span>安全登录</span>
+								</div>
+								<div class="img2">
+									<a href="index.html"><img src="images/qqtouxiang.jpg" /></a>
+									<i>sunshine</i>
+								</div>
+								<p><a href="zhuce.html" target="_blank">注册新账号</a><a href="#">意见反馈</a></p>
+							</div>
+							<div class="zhanghao">
+								<input class="txttxt" type="text" placeholder="支持QQ号/邮箱/手机号登录" />
+								<input class="psdpsd" type="password" placeholder="密码"/>
+								<input class="btnbtn" type="button" value="授权并登录" onclick="kslogin()"/>
+								<p><a href="zhuce.html" target="_blank">注册新账号</a><a href="#">意见反馈</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>
+					//验证账号密码
+					function kslogin(){
+						if($(".txttxt").val()=="lina"&&$(".psdpsd").val()==123456)
+						{
+							window.open("index.html");
+							
+							}else{
+								alert("账号或密码有误请重新输入");
+								
+							}
+					}
+
+				</script>
+				<!-----====================主体右部分=============-->
+				<div class="qqmain_right">
+					<p class="qqp1">该网站已有超过1千万用户使用QQ登录</p>	
+					<p class="qqp2"><span>衣衣不舍</span>将获得以下权限</p>
+					<p class="qqp3"><input type="checkbox" checked=""/><i>获得您的昵称、头像、性别及会员信息</i></p>
+					<p class="qqp4"><input type="checkbox" checked="" /><i>分享到QQ空间</i></p>
+					<p class="qqp5"><input type="checkbox" checked="" /><i>读取、发表腾讯微博信息</i></p>
+					<p class="qqp6"><input type="checkbox" checked="" /><i>获得空间相册内容</i></p>
+					<p class="qqp7">授权后表明您已同意<a href="#">QQ登录服务协议</a></p>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>

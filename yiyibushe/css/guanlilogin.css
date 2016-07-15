@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0;}
+a{text-decoration:none; cursor:pointer; font-size:12px;}
+img{border:0; display:block;}
+ul,li,dl,ol{list-style:none;}
+body{font-family:"微软雅黑"; font-size:12px;}
+em,i{font-style:normal;}
+strong{font-weight:100;}
+
+/*--------------------------------------------------------*/
+
+.denglubody{width:980px; height:580px; margin:130px auto; background:#fff ; border: 1px solid #f69;}
+.dengimg{padding:95px 0 0 85px; float:left;}
+
+.denglubody .dengright{width:400px; height:580px; float:right;}
+.dengright h2{font-size:14px; line-height:46px; margin-top:34px; float:left;}
+.dengright .dengzhuce{float:right; margin-right:84px; line-height:46px; margin-top:34px; color:#f69; font-size:14px; text-decoration:underline;}
+.dengright .txt,.dengright .psd{background:url(../images/denguser.jpg) no-repeat 7px center; border:none; width:300px; height:36px; border:1px solid #ddd;padding-left:30px; color:#a9a9a9;}
+.dengright .psd{background:url(../images/dengpassword.jpg) no-repeat 7px center; margin-top:20px;}
+.dengright .btn{width:330px; height:46px; background:#f69; border:none; margin-top:30px; color:#fff;}
+
+.dengbottom{height:140px; border-top:1px dotted #ccc; margin-top:30px;}
+.dengbottom h3{font-size:14px; line-height:46px; font-weight:100;}
+.dengbottom a{float:left; padding:0 5px;}
+.gogoshouye a{color:#f69; width:400px; display: block; line-height:20px; height:20px; margin-top:10px;}

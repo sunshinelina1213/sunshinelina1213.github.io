@@ -1,0 +1,153 @@
+.shadress{
+	width: 100%;
+	height: auto;
+}
+.shadresscon{
+	width: 1200px;
+	height: auto;
+	margin: 0  auto;
+
+	overflow: hidden;
+}
+.shadresscon h2{
+	font-size: 16px;
+	color: #333;
+	line-height: 44px;
+}
+.address{
+	width: 800px;
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 30px;
+	border-collapse: collapse;
+}
+.address tr td{
+	border: 1px solid #ccc;
+}
+
+.shanchu{
+	color: #666;
+}
+.shanchu:hover{
+	color: #f69;
+	text-decoration: underline;
+}
+.tianaddress{
+	width: 150px;
+	height: 70px;
+	border: 1px solid #ccc;
+	float: left;
+	padding:20px 0 0 218px;
+	cursor: pointer;
+}
+.tianaddress p{
+	line-height: 30px;
+}
+/*模态窗口*/
+.addbox{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.9;
+	position:absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.boxcon{
+	width: 710px;
+	height: 430px;
+	border:6px solid #b3b3b3;
+	position: relative;
+	left: 310px;
+	top: 38px;
+	background: #fff;
+}
+.boxcon h3{
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	margin-left: 5px;
+	background: #f7f7f7;
+}
+.boxcon h3 .addclose{
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.address_table tr td:nth-child(1){
+	width: 100px;
+	line-height: 30px;
+}
+
+
+.address_table td{
+	float: left;
+}
+.address_btn{
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background: #f69;
+	border: none;
+	margin-left: 285px;
+	cursor: pointer;
+}
+.address_btn2{
+	width: 48px;
+	height: 28px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	color: #666;
+	cursor: pointer;
+}
+
+/*==========底部========*/
+.address_jiesuan{
+	width: 1200px;
+	height: 54px;
+	border: 1px solid #ccc;
+	margin: 70px auto 70px;
+}
+.address_jiesuan a{
+	color: #f69;
+	line-height: 54px;
+	margin-left: 20px;
+	margin-right:800px;
+}
+.address_jiesuan span{
+	font-size: 12px;
+	color: #666;
+}
+
+.address_jiesuan i{
+	font-size: 16px;
+	color: #f69;
+	margin:0 21px 0 11px;
+}
+.address_jiesuan strong{
+	width: 150px;
+	height: 54px;
+	background: #f69;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	line-height: 54px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+/*body{position: absolute;}
+.zhezhaobox{width: 100%; height: 100%;}
+.zhezhao{position: relative; left: 30px; top: 20px; opacity: 0.5;}*/
+/*----------------------banner-----------------------------------*/
+.banner{width:100%; height:574px;}
+.bannercon{width:1200px; height:574px; margin:0 auto;}
+.bannerleft{width:238px; height:572px; border:1px solid #e6e6e6; position:relative; float:left;}
+
+.bannerleft .bleft1{width:198px; height:109px; margin-left:20px; border-bottom:1px dotted #e6e6e6; position:relative;}
+.bleft1 h3{line-height:34px; font-size:14px; color:#f69;}
+.bleft1 p a{ padding:0 7px; line-height:24px; color:#666;}
+.bleft1 .bred{color:#f69; font-size:12px;}
+.bannerleft span{width:5px; height:9px; background:url(../images/hehe.png) no-repeat 0 -111px; position:absolute; left:197px; top:47px; cursor:pointer;}
+
+/*二级菜单*/
+.childmenu1,.childmenu2,.childmenu3,.childmenu4,.childmenu5{
+	width: 350px;
+	border: 1px solid #ccc;
+	border-left: none;
+	position: absolute;
+	left: 218px;
+	top: 0;
+	z-index: 10;
+	background: #fff;
+	opacity: 0.8;
+	display: none;
+}
+
+.childmenu1 h4,.childmenu2 h4,.childmenu3 h4,.childmenu4 h4,.childmenu5 h4{
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #f69;
+}
+.childmenu1 p,.childmenu2 p,.childmenu3 p,.childmenu4 p,.childmenu5 p{
+	line-height: 24px;
+	color: #333;
+	margin-left: 20px;
+}
+.childmenu1 p a:hover{
+	color: #f69;
+	text-decoration: underline;
+}
+.bleft1:hover .childmenu1,.bleft1:hover .childmenu2,.bleft1:hover .childmenu3,.bleft1:hover .childmenu4,.bleft1:hover .childmenu5{
+	display: block;
+}
+.childmenu1{
+	height: 138px;
+}
+.childmenu2{
+	height: 458px;
+}
+.childmenu3{
+	height: 300px;
+}
+.childmenu4{
+	height:154px;
+}
+.childmenu5{
+	height:131px;
+}
+
+
+
+
+
+
+.divnone{width:350px; height:138px; border:1px solid #e6e6e6; position:absolute; left:238px; top:-1px; background:#9FF;}
+
+
+.bannerright{float:left; width:960px; height:574px;}
+        /*轮播图*/
+.banner_lunbo{ width:960px; height: 420px; position: relative;}
+.bannerLunbo{width:960px; height: 420px; position:absolute; top:0; left: 0; z-index: 4;}
+.bannerLunbo div{width:960px; height:420px; display: none; position: absolute; left: 0; top:0; right:0; bottom:0;}
+.bannerLunbo .firstImg{display: block;}
+.bannerLunbo div img{width:960px; height:420px;}
+
+.bannerNum{position:absolute; left:480px; bottom:18px; z-index: 8;}
+.bannerNum li{float:left; width:14px; height:14px; border-radius: 50%; background: #fff; margin-left: 10px; cursor:pointer;}
+.bannerNum .firstNum{width:18px; height:18px;}
+.bannerNum .lastNum{margin-right:0;}
+
+.btn_left{width:60px; height:90px; cursor: pointer; background:#f69 url(../images/banner_btn.png) no-repeat 0px 0px; filter:alpha(opacity:50); opacity:0.5; position: absolute; left:0;  top:160px; z-index: 8; display: none;}
+.btn_right{width:60px; height:90px; cursor: pointer; background:#f69 url(../images/banner_btn.png) no-repeat 0px -90px; filter:alpha(opacity:50); opacity:0.5; position: absolute; right:0;  top:160px; z-index: 8; display: none;}
+
+
+.bannerright .brbottom{width:960px; height:154px; margin-left:5px; margin-top:9px;}
+.brbottom a img{float:left; padding:0 5px;}
+
+.brbottom img:hover{
+	/*-webkit-transform: translate(6px,6px);
+	-moz-transform: translate(6px,6px);*/
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+
+
+/*----------------------main1(每日新款发售)-----------------------------------*/
+.main1{width:100%; height:auto; overflow:hidden;}
+.maincon1{width:1200px; height:436px; margin:22px auto 0;}
+
+.maincontop1{width:1200px; height:60px;}
+.maincontop1 i{font-size:18px; color:#666; display:block;  float:left; line-height:60px;}
+.maincontop1 span{font-size:12px; color:#999; display:block; margin-left:10px; float:left; line-height:60px;}
+.maincontop1 a{display:block; float:right; color:#666; font-size:12px; margin-top:23px;  }
+.maincontop1 a:hover{color:#f69;}
+
+.maincon1 .mainconbottom1{width:1200px; height:376px;}
+
+.mainconbottom1 .mcb1{width:386px; height:376px; float:left;}
+.mcb1 img{float:left; margin-right:1px;}
+.mcb1 .san .dier{margin:2px 0;}
+
+.mainconbottom1 .mcb2{width:386px; height:376px; float:left; padding:0 20px;}
+.mcb2 img{float:left; margin-right:1px;}
+.mcb2 .san .dier{margin:2px 0;}
+
+
+
+.san img:hover{
+	-webkit-transform:translate(8px);
+	-moz-transform:translate(8px);
+}
+
+/*----------------------main2(每日流行元素)-----------------------------------*/
+.main2{width:100%; height:auto; overflow:hidden;}
+.maincon2{width:1200px; height:291px; margin:20px auto 0;}
+
+.mainconbottom3{float:left; padding:0 9px; padding-left:0;}
+.mainconbottom3 .changkuan a{font-size:20px; color:#000; display:block; width:183px; height:44px; line-height:42px; text-align:center;}
+
+.mainconbottom2{float:left; padding:0 9px;}
+.mainconbottom2 .changkuan a{font-size:20px; color:#000; display:block; width:183px; height:44px; line-height:42px; text-align:center;}
+
+.mainconbottom2 a img:hover,.mainconbottom3 a img:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	border:1px solid #f69;
+	opacity: 0.6;
+	border-radius: 50%;
+	
+}
+
+
+
+/*----------------------main3(精品精挑细选)-----------------------------------*/
+.main3{width:100%; height:auto; overflow:hidden;}
+.maincon3{width:1200px; height:914px; margin:20px auto 0;}
+
+
+.mainconbottom4 .jingxuan1{width:224px; height:402px; float:left; padding:0 8px; position: relative;}
+.jingxuan1 .pp1{line-height:40px; height:30px; position:relative; width:224px;}
+.jingxuan1 .jiage{font-size:14px; color:#f69; float:left; display:block; height:14px;}
+.jingxuan1 .aixin{display:block; width:10px; height:9px; background:url(../images/hehe.png) no-repeat -222px 0; position:absolute; left:184px; top:17px;}
+.jingxuan1 .dianzan{font-size:10px; color:#999; float:right; display:block; height:10px; position:absolute; left:197px; top:0px;}
+.jingxuan1 .meimei{line-height:30px; color:#666;}
+.jingxuan1 .meimei:hover{color:#f69;}
+
+/*动画*/
+.jingxuan1 div{ position: absolute; -webkit-transition: 0.5s; -moz-transition: 0.5s;}
+.jingxuan1 .left{width:1px; height: 1px; left: 8px; top: 170px; background: #f69;}
+.jingxuan1 .right{width:1px; height: 1px; left: 232px; top: 170px; background: #f69;}
+.jingxuan1 .top{width:1px; height: 1px; left: 120px; top: 0; background: #f69;}
+.jingxuan1 .bottom{width:1px; height: 1px; left: 120px; top:340px; background: #f69;}
+
+.jingxuan1:hover .left{
+	
+	-webkit-transform: scaleY(340);
+	-moz-transform: scaleY(340);
+}
+.jingxuan1:hover .right{
+	
+	-webkit-transform: scaleY(340);
+	-moz-transform: scaleY(340);
+}
+.jingxuan1:hover .top{
+	
+	-webkit-transform: scaleX(225);
+	-moz-transform: scaleX(225);
+}
+.jingxuan1:hover .bottom{
+	
+	-webkit-transform: scaleX(225);
+	-moz-transform: scaleX(225);
+}
+/*--------------------------------main4(Desire明星同款)-----------------------------------*/
+.main4{width:100%; height:auto; overflow:hidden;}
+.maincon4{width:1200px; height:456px; margin:20px auto 0;}
+
+.mainconbottom5 .mingxing{width:386px; height:398px; float:left;  padding:0 7px; position: relative;}
+.mingxing img{width: 386px; height: 257px; display: block;}
+.mingxing .pp2{margin-top:22px;}
+.mingxing .desire{font-size:10px; color:#f69;}
+.mingxing .djiage{font-size:14xp; color:#f69;}
+.mingxing del{font-size:10px; color:#999; margin-left:28px;}
+.mingxing .tongkuan{font-size:14px; color:#666; display:block; height:26px; line-height:24px;}
+.mingxing .baibian{font-size:12px; color:#999; line-height:24px;}
+.mingxing .tongkuan:hover{color:#f69;}
+/*划过出现遮罩层*/
+.mxhidden{
+	width: 386px;
+	height: 257px;
+	background: #000;
+	opacity: 0.6;
+	position: absolute;
+	left: 7px;
+	top: 0px;
+	display: none;
+}
+.mxhidden span,.mxhidden i{
+	width: 100px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid #fff;
+	margin-left: 135px;
+}
+.mxhidden span{
+	margin-top: 40px;
+}
+.mxhidden i{
+	margin-top: 30px;
+}
+/*.mxhidden span:hover,.mxhidden i:hover{
+	background: #fff;
+	color: #000;
+}*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------main5(Hi范儿)-----------------------------------*/
+.main5{width:100%; height:auto; overflow:hidden;}
+.maincon5{width:1200px; height:370px; margin:20px auto 0;} 
+
+.maincon5 .haifan{margin-left:400px; height:30px;}
+.haifan a{font-size:16px; color:#666; padding:0 20px;}
+.haifan a:hover{color:#f69; border-bottom:2px solid #f69;}
+
+.maincondiv5{ height:230px; margin-top:20px; width:1200px; overflow:hidden;}
+.maincondiv5 a img{float:left;}
+.maincondiv5 a .middimg{padding:0 20px;}
+
+
+/*--------------------------------main6(新店驾到)-----------------------------------*/
+
+.main6{width:100%; height:auto; overflow:hidden;}
+.maincon6{width:1200px; height:430px; margin:20px auto 0;} 
+
+.maincon6 .xindian a{float:left; padding:0 8px;}
+
+/*--------------------------------main7(为您精选)-----------------------------------*/
+.main7{width:100%; height:auto; overflow:hidden;}
+.maincon7{width:1200px; height:914px; margin:20px auto 0;}
+
+
+
+
+
+
+

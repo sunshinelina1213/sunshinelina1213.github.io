@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的购物车</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+	</head>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/shopcar.js"></script>
+	<body>
+		<!--************************slide************************************-->	
+		<ul class="slide">
+			<li class="sdfirstli"><a href="#"><span class="slide_go"></span><em>购物车</em></a></li>
+			<li><a href="#"><span class="slide_message"></span><em>客服消息</em></a></li>
+		</ul>
+		<!--************************top************************************-->
+		<div class="top">
+			<div class="topcon">
+		    	<ul class="topnav">
+		        	<li><a href="weixindenglu.html" target="_blank"><span class="weixin"></span><em>微信登录</em></a></li>
+		            <li><a href="qqdenglu.html" target="_blank"><span class="qq"></span><em>QQ登录</em></a></li>
+		            <li class="nobg"><a href="denglu.html" target="_blank"><em>登录</em></a></li>
+		            <li class="nobg"><a href="zhuce.html" target="_blank"><em>注册</em></a></li>
+		            <li><a href="shopcar"><span class="gouwuche"></span><em>我的购物车</em></a></li>
+		            <li><a href="mydingdan.html" target="_blank"><span class="dingdan"></span><em>我的订单</em></a></li>
+		            <li><a href="person.html" target="_blank"><span class="vip"></span><em>个人中心</em></a></li>
+		            <li><a href="#" target="_blank"><span class="app"></span><i><em>下载APP</em></i></a></li>
+		            <li class="nobg"><a href="#" target="_blank"><em>帮助中心</em></a></li>
+		        </ul>
+		    </div>
+		</div>
+		<!--************************购物车头部************************************-->
+		<div class="gocar">
+			<div class="gocar_head">
+				<div class="gchead_left">
+					<a href="index.html"><img src="images/logo.jpg" /></a>
+				</div>
+				<!--购物车流程-->
+				<div class="gchead_right">
+					<div class="liucheng">
+						<a href="shopcar.html"><span class="go1">1</span></a>
+						<i class="liu1"></i>
+						<i></i>
+						<a href="querendingdan.html"><span class="go2">2</span></a>
+						<i></i>
+						<i></i>
+						<a href="zhifu.html"><span class="go3">3</span></a>
+					</div>
+					<div class="liucon">
+						<em>我的购物车</em>
+						<em class="liuem2">填写核对订单信息</em>
+						<em>付款，完成购买</em>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--==============================购物车主要部分=====================================-->
+		<div class="shopcarmain">
+			<div class="shopcarmaincon">
+			
+				<div class="cartbox">
+					<table id="cartTable">
+		                <thead>
+		                    <tr>
+		                        <th><label><input class="check-all check" type="checkbox"/>&nbsp;全选</label></th>
+		                        <th>商品</th>
+		                        <th>单价</th>
+		                        <th>数量</th>
+		                        <th>小计</th>
+		                        <th>操作</th>
+		                    </tr>
+		                </thead>
+		                <tbody>
+		                    <tr>
+		                        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+		                        <td class="goods"><img src="images/ddimg1.jpg" alt=""/><span>夏季字母印花宽松纯色T恤</span></td>
+		                        <td class="price">75.00</td>
+		                        <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+		                        <td class="subtotal">75.00</td>
+		                        <td class="operation"><span class="delete">删除</span></td>
+		                    </tr>
+		                    <tr>
+		                        <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+		                        <td class="goods"><img src="images/ddimg2.jpg" alt=""/><span>春夏甜美连衣裙</span></td>
+		                        <td class="price">135.00</td>
+		                        <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+		                        <td class="subtotal">135.00</td>
+		                        <td class="operation"><span class="delete">删除</span></td>
+		                    </tr>
+		                   
+		                </tbody>
+		            </table>
+		            
+		            <div class="foot" id="foot">
+		                <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+		                <a class="fl delete" id="deleteAll" href="javascript:;">删除</a>
+		                <div class="fr closing"><a href="querendingdan.html" target="_blank">结算</a> </div>
+		                <div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+		                 <div class="fr selected" id="selected">已选商品<span id="selectedTotal">0</span>件</div>
+		            </div>
+	    		</div>
+	
+				
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<!--************************footer************************************-->
+		<div class="footer">
+			<div class="footercon">
+		    	<div class="footer1">
+		        	<span class="dianhua"></span>
+		        	<p class="tel">1234-567-890</p>
+		            <p>衣衣不舍客服热线</p>
+		            <p>周一至周日：09:00-22:00</p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>买家帮助</h2>
+		        	<p><a href="#">新手指南</a></p>
+		            <p><a href="#">服务保障</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>商家帮助</h2>
+		        	<p><a href="#">商家入驻</a></p>
+		            <p><a href="#">商家推广</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关于我们</h2>
+		        	<p><a href="#">关于衣衣不舍</a></p>
+		            <p><a href="#">联系我们</a></p>
+		            <p><a href="#">加入我们</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关注我们</h2>
+		        	<p><a href="#"><span class="xinlang"></span><em>新浪微博</em></a></p>
+		            <p><a href="#"><span class="kongjian"></span><em>QQ空间</em></a></p>
+		            <p><a href="#"><span class="tengxun"></span><em>腾讯微博</em></a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>衣衣不舍微信服务号</h2>
+		            <p><img src="images/erweima.jpg"/></p>
+		        </div>
+		        <div class="footer3">
+		        	<h2>衣衣不舍客户端下载</h2>
+		            <p><img src="images/app.jpg"/></p>
+		        </div>
+		    </div>
+		    
+		    <div class="footercon2">
+		    	<p class="p1">Copyright&copy 2016 yiyibushe.com 电信与信息服务业务经营许可证1234567号 经营性网站备案信息 京ICP备1234567号 京公安网备1234567890</p>
+		        <p class="p1">客服电话：0123-456-789 文明办公网文明举报电话：9876-543-210 违法不良信息举报中心</p>
+		    </div>  
+		</div>
+	</body>
+</html>  

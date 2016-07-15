@@ -1,0 +1,237 @@
+.topnav li b{
+	width: 19px;
+	height: 15px;
+	position: absolute;
+	background: #f69;
+	float: left;
+	left: 105px;
+	top: 7px;
+	color: #fff;
+	line-height: 14px;
+	text-align: center;
+	margin-right: 10px;
+}
+.topnav li .xiasanjiao{
+	width: 0;
+	height: 0px;
+	border-top: 4px solid #999;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	position: absolute;
+	left: 100px;
+	top: 12px;
+}
+.userinfo{
+	width: 130px;
+	height: 160px;
+	position: absolute;
+	left: 40px;
+	top:30px;
+	border: 1px solid #ccc;
+	border-top: none;
+	display: none;
+	background: #fff;
+	opacity: 0.9;
+	
+}
+.userinfo a{
+	float: left;
+	line-height: 20px;
+	padding-left: 3px;
+	height: 20px;
+	display: block;
+	text-align: center;
+}
+.userinfo a:hover{
+	background: #eee;
+}
+
+/*====================订单主体部分================*/
+.dingdanmain{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	border-top: 1px solid #f69;
+}
+.dingdanmaincon{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*提醒提示*/
+.dingdanmaincon .tixing{
+	width: 1200px;
+	height: 28px;
+	background: #ffffcd;
+	border: 1px solid #f6e59d;
+	line-height: 28px;
+	text-align: center;
+}
+.tixing .redred{
+	color: red;
+}
+.tixing .guanbi{
+	color: #666;
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+/*=========左边===*/
+.dingmain_left{
+	width: 138px;
+	height: 643px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	background: #fafafa;
+	padding-left: 30px;
+	float: left;
+	margin-bottom: 20px;
+}
+.ullist1 li{
+	line-height: 42px;
+}
+.ullist1 li a{
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+}
+.ullist1 li span{
+	float: right;
+	margin-right: 20px;
+	color:#999;
+}
+.ullist1 li:hover a,.ullist1 li:hover span{
+	color: #f69;
+}
+.ullist2 h3{
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 4px;
+}
+.ullist2 li{
+	line-height: 30px;
+}
+.ullist2 li a{
+	color: #666;
+}
+.ullist2 li a:hover{
+	color: #f69;
+	text-decoration: underline;
+}
+/*========右边=======*/
+.dingmain_right{
+	margin-top: 20px;
+	width: 1012px;
+	margin-left: 14px;
+	float: left;
+}
+.dingmain_right .ddright_top{
+	 height: 56px;
+	 margin-bottom: 5px;
+}
+.ddright_top li{
+	float: left;
+	line-height: 40px;
+	padding:0 6px;
+	font-size: 14px;
+	margin:0 6px;
+	color: #333;
+}
+.ddright_top li:hover{
+	border-bottom: 2px solid #f69;
+	color: #f69;
+	cursor: pointer;
+}
+
+/*全部标题*/
+.ddbiaoti{
+	width: 1012px;
+	height: 42px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+}
+.ddbiaoti li{
+	float: left;
+	line-height: 42px;
+}
+.ddbiaoti .btlist1{
+	width: 587px;
+	text-align: center;
+}
+.ddbiaoti .btlist2{
+	width: 174px;
+	text-align: center;
+}
+.ddbiaoti .btlist3{
+	width: 162px;
+	text-align: center;
+}
+.ddbiaoti .btlist4{
+	width: 84px;
+	text-align: center;
+}
+/*全部*/
+.dd_info{
+	width: 1012px;
+	height: 158px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	border-collapse: collapse;
+	background: #fafafa;
+}
+.dd_info thead tr,tbody tr{
+	width: 1012px;
+	height: 44px;
+	text-align: center;
+}
+
+.dd_info tbody{
+	width: 1012px;
+	background: #fff;
+}
+.dd_info tbody tr:nth-child(1) img{
+	margin-left: 20px;
+}
+tbody tr td span,tbody tr td i{
+	display: block;
+	cursor: pointer;
+}
+tr td span:hover,tr td i:hover{
+	color: #f69;
+}
+/*待支付*/
+.daizhifu{
+	width:1012px;
+	height: 260px;
+}
+.zhifucon{
+	padding:50px 0 0 410px ;
+	width: 210px;
+	height: 210px;
+}
+.zhifucon img{
+	margin-left: 50px;
+}
+.zhifucon p{
+	text-align: center;
+	line-height: 60px;
+	color: #666;
+}
+.zhifucon span{
+	display: block;
+	width: 100px;
+	height: 25px;
+	border: 1px solid #999;
+	color: #999;
+	text-align: center;
+	line-height: 24px;
+	margin-left: 50px;
+}
+
+.daizhifu,.daifahuo,.daishouhuo,.daipingjia{
+	display: none;
+}
+
+
+

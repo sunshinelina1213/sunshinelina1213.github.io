@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/cloud-zoom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/JavaScript" src="js/cloud-zoom.1.0.2.min.js"></script>
+	</head>
+		<script type="text/javascript" src="js/detail.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	<body>
+		<!--************************slide************************************-->	
+		<ul class="slide">
+			<li class="sdfirstli"><a href="#"><span class="slide_go"></span><em>购物车</em></a></li>
+			<li><a href="#"><span class="slide_message"></span><em>客服消息</em></a></li>
+		</ul>
+		<!--************************toding************************************-->
+		<div class="toding" id="totop">
+			
+		</div>
+		<!--************************top************************************-->
+		<div class="top">
+			<div class="topcon">
+		    	<ul class="topnav">
+		        	<li><a href="weixindenglu.html" target="_blank"><span class="weixin"></span><em>微信登录</em></a></li>
+		            <li><a href="qqdenglu.html" target="_blank"><span class="qq"></span><em>QQ登录</em></a></li>
+		            <li class="nobg"><a href="denglu.html" target="_blank"><em>登录</em></a></li>
+		            <li class="nobg"><a href="zhuce.html" target="_blank"><em>注册</em></a></li>
+		            <li><a href="shopcar.html" target="_blank"><span class="gouwuche"></span><em>我的购物车</em></a></li>
+		            <li><a href="mydingdan.html" target="_blank"><span class="dingdan"></span><em>我的订单</em></a></li>
+		            <li><a href="#" target="_blank"><span class="vip"></span><em>衣衣不舍会员</em></a></li>
+		            <li><a href="#" target="_blank"><span class="app"></span><i><em>下载APP</em></i></a></li>
+		            <li class="nobg"><a href="#" target="_blank"><em>帮助中心</em></a></li>
+		        </ul>
+		    </div>
+		</div>
+		<!--************************head************************************-->
+		<div class="head">
+			<div class="headcon">
+		   	 	<div class="logo"><a href="index.html"><img src="images/logo.jpg"/></a></div>
+		        <div class="headright">
+		            <form>
+		                <input class="txt" id="txt" type="text" value="搜流行宝贝"/>
+		                <input class="btn" type="button" value=""/>
+		            </form>
+				</div>
+		    </div>
+		</div>
+		<!--************************detailnav************************************-->		
+		<div class="detail-nav" id="detail-nav"> 
+			<ul class="detailnavcon"> 
+				<li><a href="#" target="_blank">店铺首页</a></li>  
+				<li><a href="#" class="js-new-all" target="_blank">新品到货</a></li> 
+				<li class=""> <a href="" target="_blank" class=""> 5月5新品  </a>  </li>  
+				<li class=""> <a href="" target="_blank" class=""> 4月28新品  </a>  </li>  
+				<li class=""> <a href="" target="_blank" class=""> 4月20新品  </a>  </li>  
+				
+				<li class="shangzhuang"> <a href="" target="_blank" class=""> 上装 <i class="icon-tr">&#9662;</i> </a></li>  
+				<ul class="shangzhuangcon">  
+					<li> <a href="" target="_blank" >马甲/背心</a> </li>  
+					<li> <a href="" target="_blank" >T恤</a> </li>  
+					<li> <a href="" target="_blank" >衬衫</a> </li>  
+					<li> <a href="" target="_blank" >吊带衫</a> </li>  
+					<li> <a href="" target="_blank" >雪纺衫/蕾丝衫</a> </li>  
+					<li> <a href="" target="_blank" >卫衣/棒球服</a> </li>  
+					<li> <a href="" target="_blank" >针织衫/毛衣</a> </li>  
+					<li> <a href="" target="_blank" >秋冬外套</a> </li>  
+					<li> <a href="" target="_blank" >风衣</a> </li>  
+					<li> <a href="" target="_blank" >一字领</a> </li>  
+				</ul>  
+				<li class=""> <a href="/" target="_blank" class=""> 美美豆专场  </a>  </li>   
+				<li class="qunzhuang"><a href="" target="_blank" class=""> 裙装 <i class="icon-tr">&#9662;</i> </a>  
+					<ul class="qunzhuangcon">  
+						<li> <a href="" target="_blank" >半身裙</a> </li>  
+						<li> <a href="" target="_blank" >连衣裙</a> </li>  
+						<li> <a href="" target="_blank" >裙裤</a> </li>  
+					</ul>  
+				</li> 
+				<li class="kuzhuang"> <a href="" target="_blank" class=""> 裤装  </a></li>   
+				
+			</ul>
+		</div>
+		<!--************************detailmain************************************-->
+		<div class="detailmain">
+			<div class="detailmaincon">
+				<div class="dtmain_left">
+					<div class="big-pic">
+                    	<a href='images/bigimg1.jpg' class = 'cloud-zoom' id='zoom1' rel="adjustX:10, adjustY:-4">
+							<img src="images/middleimg1.jpg" />
+                        </a>
+                        <div class="list_image">
+							<a href='images/bigimg1.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/middleimg1.jpg' " >
+								<img src="images/smallimg1.jpg" />
+							</a>
+							<a href='images/bigimg2.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/middleimg2.jpg' ">
+								<img src="images/smallimg2.jpg" />
+							</a>
+							<a href='images/bigimg3.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/middleimg3.jpg' ">
+								<img src="images/smallimg3.jpg" />
+							</a>
+							<a href='images/bigimg4.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/middleimg4.jpg' ">
+								<img src="images/smallimg4.jpg" />
+							</a>
+							<a href='images/bigimg5.jpg' class='cloud-zoom-gallery' rel="useZoom: 'zoom1', smallImage: 'images/middleimg5.jpg' ">
+								<img src="images/smallimg5.jpg" />
+							</a>
+                        </div>
+                    </div>
+				</div>
+				<!--************************dtmainright************************************-->
+				<div class="dtmainright">
+					<div class="dtright_top">
+						<h2>夏季字母印花宽松纯色T恤</h2>
+						<h3>2016&nbsp;夏装新款&nbsp;荧光玫红字母印花宽松纯色T恤</h3>
+						<p class="dtrp1"><i>￥</i><span>72.90</span><del>￥250</del><em>免运费</em></p>
+						<p class="dtrp2"><strong>券</strong><span>满5元减5元可领券</span><a>立即领取<i class="icon-tr">&#9662;</i></a></p>
+						<p class="dtrp3"><span>邮</span><b>单笔订单满1件包邮</b></p>
+						<p class="dtrp4">运费&nbsp;浙江杭州&nbsp;至&nbsp;<a>北京<i class="icon-tr">&#9662;</i></a></p>
+					</div>
+					<ul class="dtright_mid">
+						<li><span>销量</span><i>15件</i></li>
+						<li><span>好评率</span><i>10人</i></li>
+						<li><span>喜欢</span><i>1050人</i></li>
+					</ul>
+					<ul class="dtright_bot">
+						<li class="yanse"><span>颜色</span><img src="images/smallimg1.jpg"></li>
+						<li class="chima"><span>尺码</span><i>均码</i></li>
+						<li class="shuliang">
+							<span>数量</span>
+							<div class="jia">
+									<div class="shu">
+										1
+									</div>
+									<div class="jisuan">
+										<input type="button" value="+" class="ad" />
+										<br/>
+										<input type="button" value="-" class="redu" />
+									</div>
+							</div>
+						</li>
+						<li class="kefu"><span>客服</span><a href="#"><img src="images/lianxikefu.jpg"/></a></li>
+					</ul>
+					<div class="dtright_bot2">
+						<p class="pbot2">
+							<a class="achengse" href="shopcar.html">加入购物车</a>
+							<a class="ahongse" href="querendingdan.html"><span>￥</span>立即购买</a>
+						</p>
+						<p class="pbot3">
+							<a class="xihuan"><span></span>喜欢<i>(1045)</i></a>
+							<a class="fenxiang" href="#"><span></span>分享</a>
+							<a class="xiafenxiang" href="denglu.html" target="_blank"><span></span></a>
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!--************************人气单品************************************-->
+		<div class="renqidanpin">
+			<div class="danpincon">
+				<h3><a href="#">人气单品</a></h3>
+				<div class="mainconbottom4">
+		        	<div class="jingxuan1">
+		            	<a href="#"><img class="img24" src="images/img24.jpg"/></a>
+		                <p class="pp1"><span class="jiage">￥69.00</span><i class="aixin"></i><em class="dianzan">1650</em></p>
+		                <p><a class="meimei">我是美美哒的韩风连衣裙</a></p>
+		            </div>
+		            
+		            <div class="jingxuan1">
+		            	<a href="#"><img class="img24" src="images/img25.jpg"/></a>
+		                <p class="pp1"><span class="jiage">￥89.00</span><i class="aixin"></i><em class="dianzan">6666</em></p>
+		                <p><a class="meimei">春季纯色宽松背带连衣裙</a></p>
+		            </div>
+		            
+		            <div class="jingxuan1">
+		            	<a href="#"><img class="img24" src="images/img26.jpg"/></a>
+		                <p class="pp1"><span class="jiage">￥59.90</span><i class="aixin"></i><em class="dianzan">1233</em></p>
+		                <p><a class="meimei">小暖暖&nbsp;连帽运动套装</a></p>
+		            </div>
+		            
+		            <div class="jingxuan1">
+		            	<a href="#"><img class="img24" src="images/img27.jpg"/></a>
+		                <p class="pp1"><span class="jiage">￥232</span><i class="aixin"></i><em class="dianzan">234</em></p>
+		                <p><a class="meimei">日系趣味包萌萌河马套装</a></p>
+		            </div>
+		            
+		            <div class="jingxuan1">
+		            	<a href="#"><img class="img24" src="images/img28.jpg"/></a>
+		                <p class="pp1"><span class="jiage">￥156.00</span><i class="aixin"></i><em class="dianzan">456</em></p>
+		                <p><a class="meimei">MASOO低帮小白鞋</a></p>
+		            </div>
+		       	</div>
+			</div>
+		</div>
+		
+		<!--************************商品详情部分************************************-->
+		<div class="shopxiang">
+			<div class="shopxiangcon">
+				<!--===详情左部分=====-->
+				<div class="shopxiang_left">
+					<!--商品分类-->
+					<div class="shopfenlei">
+						<h3>商品分类</h3>
+						<ul class="fenList">
+							<li><a href="#">上衣</a></li>
+							<li><a href="#">裤子</a></li>
+							<li><a href="#">裙子</a></li>
+							<li><a href="#">鞋子</a></li>
+							<li><a href="#">衬衣</a></li>
+							<li><a href="#">春季</a></li>
+							<li><a href="#">夏季</a></li>
+							<li><a href="#">饰品</a></li>
+							<li><a href="#">男装</a></li>
+							<li><a href="#">女装</a></li>
+						</ul>
+					</div>
+					<!--全部商品分类-->
+					<div class="allFenlei">
+						<h3>全部商品分类</h3>
+						<div class="allfencon">
+							<ul class="allfen_list">
+								<li><a href="#">上衣</a></li>
+								<li><a href="#">裤子</a></li>
+								<li><a href="#">裙子</a></li>
+								<li><a href="#">鞋子</a></li>
+								<li><a href="#">衬衣</a></li>
+								<li><a href="#">春季</a></li>
+								<li><a href="#">夏季</a></li>
+								<li><a href="#">饰品</a></li>
+								<li><a href="#">男装</a></li>
+								<li><a href="#">女装</a></li>
+								<li><a href="#">裤子</a></li>
+								<li><a href="#">裙子</a></li>
+								<li><a href="#">鞋子</a></li>
+								<li><a href="#">衬衣</a></li>
+								<li><a href="#">春季</a></li>
+								<li><a href="#">夏季</a></li>
+								<li><a href="#">饰品</a></li>
+								<li><a href="#">男装</a></li>
+								<li><a href="#">女装</a></li>	
+								<li><a href="#">上衣</a></li>
+								<li><a href="#">夏季</a></li>
+								<li><a href="#">饰品</a></li>
+								<li><a href="#">男装</a></li>
+								<li><a href="#">女装</a></li>
+								<li><a href="#">裤子</a></li>
+								<li><a href="#">裙子</a></li>
+								<li><a href="#">鞋子</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+					<div class="dianji">
+						<a href="#">
+							<span></span>
+						</a>
+					</div>
+				</div>
+				<!--======详情右部分======================-->
+				<div class="shopxiang_right">
+					<!---===============头部切换菜单=======================-->
+					<div class="shopjie" id="shopjie">
+						<ul class="shopjie_ul">
+							<li><a href="#spjs">商品介绍</a></li>
+							<li><a href="#yhpj">购买评价</a></li>
+						</ul>
+						<div class="jiagou"><a href="#">加入购物车</a></div>
+					</div>
+					<!--***************商品介绍详情****************-->
+					<div class="shop_info" id="spjs">
+						<img src="images/jiead.jpg" />
+						<div class="guige">
+							<p>规格尺码</p>
+							<ul class="guige1">
+								<li>材质：棉</li>
+								<li>袖长：短袖</li>
+								<li>品牌：森马</li>
+							</ul>
+							<ul class="guige2">
+								<li>面料成分：棉</li>
+								<li>袖型：常规袖</li>
+								<li>元素：纯色，拼色，字母，夏季，印花</li>
+							</ul>
+							<ul class="guige3">
+								<li>领型：圆领</li>
+								<li>版型：宽松</li>
+								
+							</ul>
+							<ul class="guige4">
+								<li>衣长：常规款</li>
+								<li>上衣厚度：适中</li>
+								
+							</ul>
+						</div>
+						<div class="guige_xiang">
+							<ul class="guibt">
+								<li>尺码</li>
+								<li>衣长</li>
+								<li>袖长</li>
+								<li>胸围</li>
+								<li>肩宽</li>
+								<li>腰围</li>
+								<li>领围</li>
+							</ul>
+							<ul class="guibt2">
+								<li>均码</li>
+								<li>60</li>
+								<li>48（连肩）</li>
+								<li>114</li>
+								<li>落肩袖</li>
+								<li>114</li>
+								<li>114</li>
+							</ul>
+						</div>
+						<!--图片-->
+						<div class="tupian">
+							<ul class="tucon">
+								<li><img src="images/jieimg1.jpg"/></li>
+								<li><img src="images/jieimg2.jpg"/></li>
+								<li><img src="images/jieimg3.jpg"/></li>
+								<li><img src="images/jieimg4.jpg"/></li>
+								<li><img src="images/jieimg5.jpg"/></li>
+								<li><img src="images/jieimg6.jpg"/></li>
+								<li><img src="images/jieimg7.jpg"/></li>
+								<li><img src="images/jieimg8.jpg"/></li>
+								<li><img src="images/jieimg9.jpg"/></li>
+								<li><img src="images/jieimg10.jpg"/></li>
+								<li><img src="images/jieimg11.jpg"/></li>
+								<li><img src="images/jieimg12.jpg"/></li>
+								<li><img src="images/jieimg13.jpg"/></li>
+								<li><img src="images/jieimg14.jpg"/></li>
+								<li><img src="images/jieimg15.jpg"/></li>
+								<li><img src="images/jieimg16.jpg"/></li>
+								<li><img src="images/jieimg17.jpg"/></li>
+								<li><img src="images/jieimg18.jpg"/></li>
+								<li><img src="images/jieimg19.jpg"/></li>
+								<li><img src="images/jieimg20.jpg"/></li>
+								<li><img src="images/jieimg21.jpg"/></li>
+								<li><img src="images/jieimg22.jpg"/></li>
+								<li><img src="images/jieimg23.jpg"/></li>
+								<li><img src="images/jieimg24.jpg"/></li>
+								<li><img src="images/jieimg25.jpg"/></li>
+								<li><img src="images/jieimg26.jpg"/></li>
+								<li><img src="images/jieimg27.jpg"/></li>
+								<li><img src="images/jieimg28.jpg"/></li>
+								<li><img src="images/jieimg29.jpg"/></li>
+								<li><img src="images/jieimg30.jpg"/></li>
+								<li><img src="images/jieimg31.jpg"/></li>
+								<li><img src="images/jieimg33.jpg"/></li>
+								<li><img src="images/jieimg34.jpg"/></li>
+							</ul>
+						</div>
+						
+						<!--====用户评价====-->
+						<div class="yonghupingjia" id="yhpj">
+							<div class="pingfen">
+								<p class="dpping">店铺评分（最近90天共1234人评分）</p>
+								<div class="miaocon">
+									<p class="miaoshu">描述一致:<img src="images/pingfen.jpg"/>4.7</p>
+									<p class="fuwu">服务态度:<img src="images/pingfen.jpg"/>4.7</p>
+								</div>
+								<div class="zhicon">
+									<p class="miaoshu">质量满意:<img src="images/pingfen.jpg"/>4.7</p>
+									<p class="fuwu">发货速度:<img src="images/pingfen.jpg"/>4.7</p>
+								</div>
+								
+							</div>
+							<div class="pingjia_wrap">
+								<ul class="pj_tab">
+									<li class="pj_list1">全部评价（1）</li>
+									<li class="pj_list2">好评（1）</li>
+									<li class="pj_list3">中评（0）</li>
+									<li class="pj_list4">差评（0）</li>
+									<li class="pj_list5">追评（0）</li>
+								</ul>
+								<div class="pj_con">
+									<div class="all_ping">
+										<div class="touxiang">
+											<img src="images/touxiang.jpg" />
+											<i>w***8</i>
+										</div>
+										<div class="touxiangcon">
+											<span></span><i>好评</i>
+											<p>很漂亮。质量也很好，下次还会来</p>
+											<p>颜色：白底字母印花&nbsp;尺码：均码&nbsp;&nbsp;&nbsp;05月16日&nbsp;&nbsp;&nbsp;12:00</p>
+										</div>
+									</div>
+									<div class="hao_ping">
+										<div class="touxiang">
+											<img src="images/touxiang.jpg" />
+											<i>w***8</i>
+										</div>
+										<div class="touxiangcon">
+											<span></span><i>好评</i>
+											<p>很漂亮。质量也很好，下次还会来</p>
+											<p>颜色：白底字母印花&nbsp;尺码：均码&nbsp;&nbsp;&nbsp;05月16日&nbsp;&nbsp;&nbsp;12:00</p>
+										</div>
+									</div>
+									<div class="zhong_ping">
+										<p>暂无此项评价</p>
+									</div>
+									<div class="cha_ping">
+										<p>暂无此项评价</p>
+									</div>
+									<div class="zhui_ping">
+										<p>暂无此项评价</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!--=======本店热卖=======-->
+					<div class="mainconbottom4">
+						<h2>本店热卖</h2>
+			            <div class="jingxuan1">
+			            	<a href="#"><img class="img24" src="images/img30.jpg"/></a>
+			                <p class="pp1"><span class="jiage">￥95.00</span><i class="aixin"></i><em class="dianzan">663</em></p>
+			                <p><a class="meimei">帅气格纹全棉磨毛衬衫</a></p>
+			            </div>
+			            
+			            <div class="jingxuan1">
+			            	<a href="#"><img class="img24" src="images/img31.jpg"/></a>
+			                <p class="pp1"><span class="jiage">￥19.99</span><i class="aixin"></i><em class="dianzan">123</em></p>
+			                <p><a class="meimei">创意零食薯条维他奶手机壳</a></p>
+			            </div>
+			            
+			            <div class="jingxuan1">
+			            	<a href="#"><img class="img24" src="images/img33.jpg"/></a>
+			                <p class="pp1"><span class="jiage">￥168.00</span><i class="aixin"></i><em class="dianzan">271</em></p>
+			                <p><a class="meimei">春季新品两件蕾丝连衣裙</a></p>
+			            </div>
+	        		</div>
+				</div>	
+				
+			</div>
+		</div>
+		
+		
+		<!--************************footer************************************-->
+		<div class="footer">
+			<div class="footercon">
+		    	<div class="footer1">
+		        	<span class="dianhua"></span>
+		        	<p class="tel">1234-567-890</p>
+		            <p>衣衣不舍客服热线</p>
+		            <p>周一至周日：09:00-22:00</p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>买家帮助</h2>
+		        	<p><a href="#">新手指南</a></p>
+		            <p><a href="#">服务保障</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>商家帮助</h2>
+		        	<p><a href="#">商家入驻</a></p>
+		            <p><a href="#">商家推广</a></p>
+		            <p><a href="#">帮助中心</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关于我们</h2>
+		        	<p><a href="#">关于衣衣不舍</a></p>
+		            <p><a href="#">联系我们</a></p>
+		            <p><a href="#">加入我们</a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>关注我们</h2>
+		        	<p><a href="#"><span class="xinlang"></span><em>新浪微博</em></a></p>
+		            <p><a href="#"><span class="kongjian"></span><em>QQ空间</em></a></p>
+		            <p><a href="#"><span class="tengxun"></span><em>腾讯微博</em></a></p>
+		        </div>
+		        <div class="footer2">
+		        	<h2>衣衣不舍微信服务号</h2>
+		            <p><img src="images/erweima.jpg"/></p>
+		        </div>
+		        <div class="footer3">
+		        	<h2>衣衣不舍客户端下载</h2>
+		            <p><img src="images/app.jpg"/></p>
+		        </div>
+		    </div>
+		    
+		    <div class="footercon2">
+		    	<p class="p1">Copyright&copy 2016 yiyibushe.com 电信与信息服务业务经营许可证1234567号 经营性网站备案信息 京ICP备1234567号 京公安网备1234567890</p>
+		        <p class="p1">客服电话：0123-456-789 文明办公网文明举报电话：9876-543-210 违法不良信息举报中心</p>
+		    </div>  
+		</div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/*============主体部分*/
+.symain{
+	width: 100%;
+	height: auto;
+	
+}
+.symaincon{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+.sycon{
+	float: left;
+	padding: 0 8px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.sycon span{
+	width: 224px;
+	font-size: 16px;
+	color: #f69;dfgfg
+	float: left;
+	display: block;
+	line-height: 34px;
+}
+.sycon p{
+	font-size: 12px;
+	color: #666;
+	cursor: pointer;
+}
+.sycon p:hover{
+	color: #f69;
+}
+.sycon img{
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+
+.syhide{
+	width: 80px;
+	height: 20px;
+	border-radius: 100px/70px;
+	background: #f69;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	left: 120px;
+	top: 250px;
+	display: block;
+	-moz-transition: 2s;
+	-webkit-transition: 2s;
+}
+.sycon a:hover .syhide{	
+	-moz-transform: translate(20px,20px);
+	-webkit-transform: translate(20px,20px);
+	display: block;
+}
+.sycon a img:hover{
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	border-radius: 100px/60px;
+}      

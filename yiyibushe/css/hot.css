@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0;}
+a{text-decoration:none; cursor:pointer; font-size:12px;}
+img{border:0; display:block;}
+ul,li,dl,ol{list-style:none;}
+body{font-family:"微软雅黑"; font-size:12px;}
+em,i{font-style:normal;}
+strong{font-weight:100;}
+
+/*----------------------hotnav-----------------------------------*/
+.hotnav{width:100%; height:auto; overflow:hidden;}
+.hotnavcon{width:1200px; height:130px; border:1px solid #e1e1e1; margin:16px auto 30px;}
+
+.hotnavcon .navcon11{margin-left:20px;}
+.navcon11 .hot_tit{margin-top:18px; float:left;  margin-left:20px;}
+.navcon11 .hot_name{font-size:12px; line-height:30px;}
+
+.hotnavcon .hot_links{margin-top:18px; float:left;}
+.hotnavcon .hot_links li{width:66px; line-height:22px;}
+.hot_links .hot_links1{float:left; margin-left:14px;}
+.hot_links .hot_links2{float:left;}
+.hot_links .hot_links3{float:left;}
+.hotnavcon li a{color:#666;}
+.hotnavcon .red{color:#f69;}
+.hotnavcon li a:hover{color:#f69;}
+
+
+/*---------------------hotmain-----------------------------------*/
+.hotmain{width:100%; height:auto; overflow:hidden;}
+
+.hot_tab{width:1200px; height:30px; margin:0 auto; overflow:hidden;}
+.hot_tab li{float:left; padding:0 25px; margin-bottom:18px; }
+.hot_tab li em{font-size:18px;}
+.hot_tab .liuxing_tab{margin-left:420px;}
+.hot_tab li a:hover{color:#f69;}
+.hot_tab li:hover{border-bottom:2px solid #f69;}
+
+.hot_wrap{margin-top: 30px;}
+.hot_img{width:1200px; margin:0 auto; overflow:hidden; height:408px;}
+.hot_img .hot_imgcon{width:224px; float:left; padding:0 8px;}
+.hot_img .hot_imgcon .hot_span{font-size:16px; color:#f69; float:left; display:block; width:100px; line-height:30px;}
+.hot_img .hot_imgcon .hot_em{font-size:12px; color:#999; display:block; float:right; line-height:28px;}
+.hot_img .hot_imgcon .hot_a{font-size:12px; width:224px; float:left; line-height:22px; color:#666;}
+.hot_img .hot_imgcon .hot_a:hover{color:#f69;}
+
+.liuxing,.rexiao{display: none;}
+.hot_img img:hover{border: 2px solid #f69;}
